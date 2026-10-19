@@ -1,5 +1,0 @@
-Assessment,Reference,Component,n,Mean_m,SD_m,RMSE_m,Median_m,Min_m,Max_m,MaxAbs_m
-Photogrammetry,RTK-GNSS,Vertical,11,0.080,0.080,0.111,0.074,-0.037,0.270,0.270
-DGM,RTK-GNSS,Vertical,11,-3.273,0.021,3.273,-3.272,-3.304,-3.239,3.304
-CityGML LoD2,Photogrammetry,Horizontal (facade),11,0.060,0.240,0.236,0.030,-0.294,0.574,0.574
-CityGML LoD2,Photogrammetry,Vertical (roof),11,-3.631,0.489,3.661,-3.533,-4.673,-2.738,4.673

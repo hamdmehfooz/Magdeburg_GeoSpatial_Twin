@@ -1,6 +1,0 @@
-Assessment,Sample,n,Mean_m,SD_m,RMSE_m,Median_m,MaxAbs_m
-Photogrammetry vertical vs GNSS,All points,14,0.052,0.091,0.102,0.054,0.270
-Photogrammetry vertical vs GNSS,Checkpoints (excl. datum),13,0.055,0.094,0.106,0.054,0.270
-DGM vertical vs GNSS,Checkpoints (excl. datum),13,-1.771,0.903,1.972,-2.023,3.300
-LoD2 vs photogrammetry facade,All buildings,14,0.057,0.217,0.217,0.041,0.574
-LoD2 vs photogrammetry facade,Filtered (excl. datum + high scatter),11,0.004,0.175,0.167,0.024,0.371

@@ -73,3 +73,22 @@ crashlytics-build.properties
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# ---- Unity player builds ----
+# The rules above only cover /Build/ and /Builds/. A build written anywhere else
+# drops <Name>.exe next to <Name>_Data/, MonoBleedingEdge/, UnityPlayer.dll and
+# the graphics runtimes, which is how ~2.7 GB of build output ended up committed
+# under Results3/. These are regenerable artefacts and never belong in the repo.
+*_Data/
+MonoBleedingEdge/
+D3D12/
+UnityPlayer.dll
+UnityCrashHandler*.exe
+WinPixEventRuntime.dll
+*.exe
+
+# ---- Analysis and measurement outputs ----
+# Every Results* folder: the geometric assessment outputs, the raw per-frame
+# benchmark data, and (under Results3) a Unity player build. All kept out of the
+# repository and archived separately.
+Results*/
