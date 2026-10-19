@@ -1,0 +1,9 @@
+Assessment,Component,Sample,n,Mean_m,SD_m,RMSE_m,Primary,Note
+Photogrammetry vs GNSS,Vertical,Checkpoints (excl. datum),13,0.055,0.094,0.106,yes,Independent RTK reference
+DGM vs GNSS,Vertical,All points (owning tile only),14,-3.281,0.028,3.281,yes,Constant offset; SD 2.8 cm
+DGM vs GNSS,Vertical,All points (topmost of 4 tilesets),13,-1.795,0.968,2.022,no,INVALID - mixes global fallback terrain
+LoD2 vs photogrammetry,Horizontal facade,Filtered,11,0.004,0.175,0.167,yes,Excl. datum + 2 high-scatter sites
+LoD2 vs photogrammetry,Horizontal facade,All buildings,14,0.057,0.217,0.217,no,
+LoD2 vs photogrammetry,Vertical roof,Primary (excl. GCP 6),13,-3.678,0.533,3.713,yes,GCP 6 nearest building 84 m away
+LoD2 vs photogrammetry,Vertical roof,All buildings,14,-3.675,0.512,3.707,no,Sensitivity check
+LoD2 vs photogrammetry,Vertical roof,Nearest-hit rule only,11,-3.631,0.489,3.661,no,Before sampling-rule refinement

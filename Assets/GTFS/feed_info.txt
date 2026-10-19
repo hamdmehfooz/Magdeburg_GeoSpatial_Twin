@@ -1,0 +1,2 @@
+"feed_publisher_name","feed_publisher_url","feed_lang","feed_start_date","feed_end_date","feed_version","feed_contact_email","feed_contact_url"
+"DELFI e.V.","https://www.delfi.de","de",20260328,20261212,"2026-04-11T13:15:58","Delfi-Fahrplandaten@rms-consult.de","https://www.delfi.de"
