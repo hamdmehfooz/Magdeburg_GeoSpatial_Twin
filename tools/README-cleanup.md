@@ -1,6 +1,26 @@
 # Repository size and pushing to GitHub
 
-## Current state
+## Outcome (2026-10-19)
+
+The cleanup described below was run and the repository was pushed successfully.
+
+| Stage | Pack size |
+|---|---|
+| Before | 5.71 GiB |
+| After removing build output and Tier 2 sources | 2.09 GiB |
+| After also removing `Assets/Textures` | **424 MiB** |
+
+`Assets/Scenes/SmartMobilityCore.unity` (287 MB) was migrated to Git LFS, which
+uploaded 301 MB. Backup of the pre-rewrite state is at `../vr-backup.git`.
+
+GitHub warned — but did not reject — two files over its *recommended* 50 MB:
+`Assets/Prefabs/DigitalTwin.gltf` (56.7 MB) and the VIVE OpenXR
+`opencv_world341.dll` (63.3 MB). Both are under the 100 MB hard limit.
+
+The sections below describe the original problem and remain the reference for
+running this again.
+
+## Original state
 
 | Measure | Value |
 |---|---|

@@ -41,6 +41,11 @@ TIER1=(
 # --------------------------------------------------------------------------
 TIER2=(
   "Assets/External_Models"              # ~1.9 GB  .glb / .fbx station models
+  "Assets/Textures"                     # 1.76 GB  260 JPGs, the texture set for
+                                        #          the External_Models above. No
+                                        #          single file over 100 MB, so it
+                                        #          hides from oversized-file scans
+                                        #          while dominating repo size.
   "Assets/GTFS/stop_times.txt"          # 2.5 GB   transit feed
   "Assets/GTFS/shapes.txt"              # 287 MB
   "Assets/GTFS/trips.txt"               # 169 MB
